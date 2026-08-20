@@ -1,0 +1,215 @@
+body {
+    background-color: #0d0d0d;
+}
+
+header {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+#logo > h1 {
+    color: #ffffff;
+    font-family: 'Oooh baby';
+    font-size: 3rem;
+}
+
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 0rem;
+    width: 65%;
+    height: 8rem;
+    border-radius: 6.25rem;
+    border-bottom-width: 0px;
+    border-color: rgba(255, 255, 255, 0.1);
+    border-left-width: 1px;
+    border-right-width: 0px;
+    border-style: solid;
+    border-top-width: 1px;
+    backdrop-filter: blur(30px);
+    background-color: rgba(255, 255, 255, 0.03);
+    border-radius: 80px;
+    box-shadow: rgba(0, 0, 0, 0.5) 0px 8px 24px 0px, rgba(255, 255, 255, 0.04) 0px -8px 24px 0px;
+    opacity: 1;
+}
+
+
+nav > a > svg {
+    fill: #898989;
+    width: 4rem;
+    height: 2.87rem;
+    padding: 24px;
+    transition: fill 150ms ease-in-out 200ms;
+    
+}
+
+nav > a > svg:hover {
+    
+    border-radius: 50%;
+    background-color: #2c2c2c;
+    fill: #ffffff;
+
+}
+
+/* main {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* overflow: hidden; */
+
+/* } */ */
+
+/* .carousel {
+    box-sizing: border-box;
+    width: 100%;
+    display: flex;
+    position: relative;
+    height: min-content;
+    align-items: center;
+    justify-content: center;
+    gap: 1.75rem;
+    /* animation: slider 5s infinite linear; */
+/* } */ */
+
+.carousel > span > svg {
+    height: 4rem;
+    width: 4rem;
+}
+
+.carousel > span > svg > path {
+    fill: #898989;
+    
+}
+
+.carousel > span > svg > g > g {
+    fill: #898989;
+    
+}
+
+@keyframes slider {
+    from {
+        transform: translateX(-50%);
+    }
+
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+main {
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 9rem;
+
+    overflow: hidden;
+}
+
+.carousel-track {
+    display: flex;
+    width: max-content;
+    animation: slider 15s linear infinite;
+}
+
+.carousel {
+    display: flex;
+    align-items: center;
+    gap: 1.75rem;
+
+    width: max-content;
+    flex-shrink: 0;
+
+    /* creates the same spacing between the end
+       of carousel 1 and beginning of carousel 2 */
+    padding-right: 1.75rem;
+}
+
+.carousel > span > svg {
+    height: 4rem;
+    width: 4rem;
+}
+
+@keyframes slider {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(-50%);
+    }
+}
+
+.carousel-track:hover  {
+    animation-play-state: paused;
+}
+
+#cta {
+    width: 100%;
+    color: #7b7b7b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#cta > h2 {
+    font-family: 'Inria Serif';
+    font-size: 4rem;
+    color: white;
+}
+
+#cta > pre {
+    align-self: flex-end;
+    font-size: large;
+}
+
+#cta > p {
+    font-family: 'Inter';
+    color: white;
+    font-size: 1.3rem;
+}
+
+#cta > .buttons {
+    margin-top: 5rem;
+    width: 80%;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+
+}
+
+.buttons > button {
+    padding: 1.2rem;
+    width: 30%;
+    border-radius: 20px;
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 1.1rem;
+    background-color: #c9e2b8;
+    border-color: #c9e2b8;
+
+}
+
+.buttons > button:last-child {
+    color: #ffffff;
+    background-color: #1d1d1d;
+    border-color: #1d1d1d;
+}
+
+.buttons > button:hover {
+    cursor: pointer;
+}
+
+
+
+
+
+
+
