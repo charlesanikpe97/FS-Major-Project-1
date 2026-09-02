@@ -34,7 +34,7 @@ This project focuses on creating a fun and interactive platform to highlight per
 - [x] Responsive navigation that adapts to screen size
 - [x] Professional color scheme and typography hierarchy
 - [ ] HTML and CSS validation passing
-- [ ] No overlapping or hidden elements on any device size
+- [x] No overlapping or hidden elements on any device size
 
 ### **Could Have (Bonus Points):**
 
@@ -58,7 +58,7 @@ This project focuses on creating a fun and interactive platform to highlight per
 ### **Option A - Interactive Portfolio Must Include:**
 
 - [x] Professional landing section or page with developer introduction
-- [ ] Projects showcase section or page featuring minimum 3 coding projects
+- [x] Projects showcase section or page featuring minimum 3 coding projects
 - [x] Skills/technologies section or page with visual skill indicators
 - [x] About/experience section or page with professional background
 - [x] Contact section or page with professional information and social links

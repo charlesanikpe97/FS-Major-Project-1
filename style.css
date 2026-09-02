@@ -220,6 +220,98 @@ main {
     cursor: pointer;
 }
 
+#project_gallery {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.project_card {
+    width: 40%;
+    border: 1px solid #c9e2b8;
+    border-radius: 12px;
+    background-color:#222222;
+    font-family: 'Inter';
+    color: #7b7b7b;
+    margin-bottom: 3rem;
+   
+}
+
+.project_card > a {
+    text-decoration: none;
+    margin: 0;
+    font-family: inherit;
+
+}
+
+.card_img {
+    width: 95%;
+    height: 55%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 12px;
+    border: 1px solid #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: .5rem;
+    padding-top: 3rem;
+    padding-block: 3rem;
+
+}
+
+.card_img  > svg > g > path{
+    
+    fill: #c9e2b8;
+    
+    
+}
+
+
+.card_img  > svg {
+    width: 70%;
+   
+}
+
+.card_img > #roadmap >path:first-child {
+    fill: #c9e2b8;
+}
+
+.card_img > #roadmap {
+    height: 3.75rem;
+   
+}
+
+.project_card > a > h5 {
+    color: #ffffff;
+    margin-left: 4.5%;
+    font-weight: 400;
+    
+}
+
+
+.project_card > a > p {
+    color: #ffffff;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 300;
+    padding-bottom: 2rem;
+    font-size: small;
+    width: 90%;
+
+
+}
+
+.project_card :hover {
+    cursor: pointer;
+    
+    
+}
+
+
 #coming_soon {
    display: flex;
    flex-direction: column;
