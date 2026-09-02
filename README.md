@@ -57,7 +57,7 @@ One portfolio in particular became a major source of design inspiration. I liked
 
 My aim was not to reproduce the website directly, but to understand what made the design effective and adapt those ideas into something that represented my own style.
 
-> **Design inspiration:** [Add link/reference here]
+> **Design inspiration:** [https://refined.framer.website]
 
 ---
 
