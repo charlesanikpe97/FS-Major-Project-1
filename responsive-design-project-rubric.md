@@ -33,7 +33,7 @@ This project focuses on creating a fun and interactive platform to highlight per
 - [x] Multiple responsive breakpoints (mobile, tablet, desktop)
 - [x] Responsive navigation that adapts to screen size
 - [x] Professional color scheme and typography hierarchy
-- [ ] HTML and CSS validation passing
+- [x] HTML and CSS validation passing
 - [x] No overlapping or hidden elements on any device size
 
 ### **Could Have (Bonus Points):**
@@ -48,7 +48,7 @@ This project focuses on creating a fun and interactive platform to highlight per
 - [x] CSS animations using @keyframes (minimum 2 animations)
 - [x] CSS transitions on hover and interactive elements
 - [x] Transform functions (translate, scale, rotate)
-- [] Scroll-triggered animations or effects
+- [x] Scroll-triggered animations or effects
 - [x] Advanced pseudo-selectors (:nth-child patterns, :has(), :where())
 
 ---

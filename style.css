@@ -285,7 +285,7 @@ main {
    
 }
 
-.project_card > a > h5 {
+.project_card > a > h4 {
     color: #ffffff;
     margin-left: 4.5%;
     font-weight: 400;
@@ -538,7 +538,9 @@ input:focus-visible, textarea:focus-visible{
     width: 80%;
     margin: 0 auto;
     margin-bottom: 5rem;
-    transition: width 200ms ease-in-out 100ms;
+    transition: width 700ms ease-in-out 400ms;
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
 #form >input[type="submit"]:hover {
@@ -784,6 +786,11 @@ footer > div > ul > li:hover {
         width: 60%;
     }
 
+
+    .project_card {
+        width: 100%;
+    }
+
     #coming_soon {
         width: 80%;
     }
@@ -865,6 +872,12 @@ footer > div > ul > li:hover {
     font-size: 1.5rem;
 }
 
+#form >input[type="submit"] {
+    font-size: small;
+    text-align: center;
+    width: max-content;
+}
+
 
 footer {
         width: 80%;
@@ -890,7 +903,7 @@ footer > div > ul {
 /* Animations  */
 
 .autoShow {
-    animation: text-appear both;
+    animation: text-appear linear both;
     animation-timeline: view();
     animation-range: entry 20% cover;
 }
